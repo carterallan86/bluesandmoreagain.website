@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagesController@index');
+Route::get('/contact', 'PagesController@contact');
+
+
+Route::resource('reviews', 'ReviewsController');
+
+Route::get('/dashboard', 'DashboardController@index');
+
+//Contact form
+Route::get('contact', ['as' => 'contact', 'uses' => 'AboutController@create']);
+Route::post('contact', ['as' => 'contact_store', 'uses' => 'AboutController@store']);
