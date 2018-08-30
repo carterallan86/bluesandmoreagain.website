@@ -1,7 +1,5 @@
-<!DOCTYPE HTML>
 
 <?php 
-
 include "utils/connect_db.php"; 
 include "utils/common.php"; 
 
@@ -9,29 +7,11 @@ $page = $_SERVER['PHP_SELF'] ;
 
 include ( 'hitcounter/counter.php');
 addinfo($page);
-
+include ("includes/header.php"); 
 ?>
 
-<html>
-	<head>
-		<title>Bluesandmoreagain.com</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-	</head>
-
 <body id="top">
-	<?php include ("includes/header.html"); ?>	
+		
 		<!-- Banner -->
 		<section id="banner">
 				<div class="inner">
@@ -70,10 +50,11 @@ addinfo($page);
 
 									echo "<div class='4u'>
 										<section class='special box'>
-											<a href='/review.php?rid=".$row["review_id"]."' class='image fit'><img src='imgages/artwork_images/".$row["review_id"].".jpg' alt='' /></a>
+											<a href='/review.php?rid=".$row["review_id"]."' class='image fit'><img src='images/artwork_images/".$row["review_id"].".jpg' alt='' /></a>
 											<h3>".$row["title"]."</h3>
 											<strong>".$row["artist"]."</strong>
 											<p>".$row["summary"]."</p>
+											<p align='right'><i>".$row["date_added"]."</i></p>
 										</section>
 									</div>";
 								}   

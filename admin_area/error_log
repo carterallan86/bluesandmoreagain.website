@@ -1,0 +1,17 @@
+[23-Jan-2018 11:46:03 America/New_York] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/blueenzd/public_html/admin_area/edit_home.php on line 57
+[23-Jan-2018 11:46:38 America/New_York] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/blueenzd/public_html/admin_area/edit_home.php on line 34
+[23-Jan-2018 11:46:38 America/New_York] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/blueenzd/public_html/admin_area/edit_home.php on line 57
+[23-Jan-2018 11:46:48 America/New_York] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/blueenzd/public_html/admin_area/edit_home.php on line 57
+[23-Jan-2018 11:47:21 America/New_York] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/blueenzd/public_html/admin_area/edit_home.php on line 34
+[23-Jan-2018 11:47:21 America/New_York] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/blueenzd/public_html/admin_area/edit_home.php on line 57
+[24-Jan-2018 06:17:25 America/New_York] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/blueenzd/public_html/admin_area/edit_home.php on line 57
+[24-Jan-2018 06:29:27 America/New_York] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/blueenzd/public_html/admin_area/edit_home.php on line 57
+[29-Jan-2018 04:39:23 America/New_York] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/blueenzd/public_html/admin_area/edit_home.php on line 57
+[29-Jan-2018 04:48:36 America/New_York] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/blueenzd/public_html/admin_area/edit_home.php on line 34
+[29-Jan-2018 04:48:36 America/New_York] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/blueenzd/public_html/admin_area/edit_home.php on line 57
+[24-Jul-2018 11:20:48 America/New_York] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/blueenzd/public_html/admin_area/edit_home.php on line 57
+[24-Jul-2018 11:32:25 America/New_York] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/blueenzd/public_html/admin_area/edit_home.php on line 57
+[24-Jul-2018 11:35:49 America/New_York] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/blueenzd/public_html/admin_area/edit_home.php on line 57
+[24-Jul-2018 11:36:22 America/New_York] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/blueenzd/public_html/admin_area/edit_home.php on line 34
+[24-Jul-2018 11:36:22 America/New_York] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/blueenzd/public_html/admin_area/edit_home.php on line 57
+[24-Jul-2018 11:36:27 America/New_York] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/blueenzd/public_html/admin_area/edit_home.php on line 57

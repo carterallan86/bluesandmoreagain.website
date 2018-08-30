@@ -1,17 +1,5 @@
 <!DOCTYPE HTML>
 
-<?php 
-
-include "utils/connect_db.php"; 
-include "utils/common.php"; 
-
-$page = $_SERVER['PHP_SELF'] ;
-
-include ( 'hitcounter/counter.php');
-addinfo($page);
-
-?>
-
 <html>
 	<head>
 		<title>Bluesandmoreagain.com</title>
@@ -36,7 +24,7 @@ addinfo($page);
   <nav id="nav">
     <ul>
       <li><a href="index.php">Home</a></li>
-      <li><a href="reviews_album.php">Reviews</a></li>
+      <li><a href="reviews.php">Reviews</a></li>
       <li><a href="contact.php">Contact Us</a></li>
       <li><a href="contents.php?sort=0">Review Index</a></li>
     </ul>
